@@ -28,6 +28,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.35",
     "@emotion/styled": "^10.0.27",
+    "emotion-normalize": "^10.1.0",
     "next": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"

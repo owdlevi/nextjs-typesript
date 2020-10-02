@@ -3,17 +3,14 @@
 exports[`Home page matches snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="jsx-2631374831 container"
+    class="container"
   >
-    <main
-      class="jsx-2631374831"
-    />
+    <main />
     <footer
       class="css-d3pce8"
       font-size="24"
     >
       <a
-        class="jsx-2631374831"
         href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
         rel="noopener noreferrer"
         target="_blank"
@@ -21,7 +18,7 @@ exports[`Home page matches snapshot 1`] = `
         Powered by 
         <img
           alt="Vercel Logo"
-          class="jsx-2631374831 logo"
+          class="logo"
           src="/vercel.svg"
         />
       </a>
