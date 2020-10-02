@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="jsx-2250570153 container"
+  >
+    <main
+      class="jsx-2250570153"
+    >
+      <h1
+        class="jsx-2250570153 title"
+      >
+        Welcome to 
+        <a
+          class="jsx-2250570153"
+          href="https://nextjs.org"
+        >
+          Next.js!
+        </a>
+      </h1>
+    </main>
+    <footer
+      class="jsx-2250570153"
+    >
+      <a
+        class="jsx-2250570153"
+        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Powered by 
+        <img
+          alt="Vercel Logo"
+          class="jsx-2250570153 logo"
+          src="/vercel.svg"
+        />
+      </a>
+    </footer>
+  </div>
+</DocumentFragment>
+`;
