@@ -1,4 +1,18 @@
+import styled from '@emotion/styled'
 import Head from 'next/head'
+
+const Footer = styled.footer<{ fontSize: number }>(
+  {
+    backgroundColor: '#F6f6f6',
+    width: '100%',
+    padding: '2rem 0',
+    display: 'flex',
+    justifyContent: 'center',
+  },
+  (props) => ({
+    fontSize: props.fontSize,
+  })
+)
 
 export const Home = (): JSX.Element => (
   <div className="container">
@@ -9,7 +23,7 @@ export const Home = (): JSX.Element => (
 
     <main></main>
 
-    <footer>
+    <Footer fontSize={24}>
       <a
         href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
         target="_blank"
@@ -17,7 +31,7 @@ export const Home = (): JSX.Element => (
       >
         Powered by <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
       </a>
-    </footer>
+    </Footer>
 
     <style jsx>{`
       .container {
@@ -34,25 +48,6 @@ export const Home = (): JSX.Element => (
         flex: 1;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-
-      footer {
-        width: 100%;
-        height: 100px;
-        border-top: 1px solid #eaeaea;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      footer img {
-        margin-left: 0.5rem;
-      }
-
-      footer a {
-        display: flex;
         justify-content: center;
         align-items: center;
       }
